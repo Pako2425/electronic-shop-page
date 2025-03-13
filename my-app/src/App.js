@@ -1,12 +1,21 @@
 import './App.css';
-import LogoSklepu from './components/LogoSklepu';
+import ShopLogo from './components/ShopLogo';
+import SearchInput from './components/SearchInput';
+import CategorySelect from './components/CategorySelect';
+import SearchButton from './components/SearchButton';
+import UserMenu from './components/UserMenu';
+import CategoryMenu from './components/CategoryMenu';
 
 function App() {
   
   return (
     <>
-    <p>Hello</p>
-    <LogoSklepu />
+      <ShopLogo />
+      <SearchInput />
+      <CategorySelect />
+      <SearchButton />
+      <UserMenu />
+      <CategoryMenu />
     </>
   );
 }
