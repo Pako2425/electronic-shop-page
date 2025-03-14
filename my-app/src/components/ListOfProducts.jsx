@@ -1,6 +1,6 @@
 function ListOfProducts() {
     return(
-        <div class="produkty">
+        <div className="produkty">
             <h2>Produkty</h2>
             <div class="okazja-dnia">
                 <p>OKAZJA</p>

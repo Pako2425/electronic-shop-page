@@ -1,6 +1,6 @@
 function Accesories() {
     return(
-        <div class="akcesoria">
+        <div className="akcesoria">
             <h2>Akcesoria</h2>
             <span>Przewijana lista akcesoriów</span>
         </div>

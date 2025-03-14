@@ -1,7 +1,7 @@
 function Footer() {
     return(
         <footer>
-            <div class="informacje">
+            <div className="informacje">
                 <p>Logo sklepu</p>
                 <ul>
                     <li>Sklep i jego adres</li>

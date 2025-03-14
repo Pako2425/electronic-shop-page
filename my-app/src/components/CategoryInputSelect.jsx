@@ -1,4 +1,4 @@
-function CategorySelect() {
+function CategoryInputSelect() {
     return(
         <select>
             <option>wszystkie</option>
@@ -15,4 +15,4 @@ function CategorySelect() {
     );
 }
 
-export default CategorySelect;
+export default CategoryInputSelect;

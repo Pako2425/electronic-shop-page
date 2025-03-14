@@ -1,6 +1,6 @@
 function PCConfiguration() {
     return(
-        <div class="konfiguracja-pc">
+        <div className="konfiguracja-pc">
             <span>plakat krzyczący "skonfiguruj pc"</span>
             <button>Skonfiguruj PC</button>
         </div>

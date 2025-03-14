@@ -1,6 +1,6 @@
 function SpecialOffers() {
     return(
-        <div class="promocje">
+        <div className="promocje">
             <h2>Promocje</h2>
             <ul>
                 <li>Promocja1</li>

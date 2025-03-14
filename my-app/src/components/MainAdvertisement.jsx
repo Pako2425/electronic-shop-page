@@ -1,6 +1,6 @@
 function MainAdvertisement() {
     return(
-        <div class="reklama-sklepowa">
+        <div className="reklama-sklepowa">
             <p>Wielkie miejsce na reklamy i aktualności sklepu</p>
         </div>
     );

@@ -1,6 +1,6 @@
 function BestSellers() {
     return(
-        <div class="bestsellery">
+        <div className="bestsellery">
             <h2>Bestellery</h2>
             <ul>
                 <li>Bestseller1</li>
