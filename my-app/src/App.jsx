@@ -22,7 +22,7 @@ function App() {
     <>
       <header className='flex h-10 justify-between'>
         <ShopLogo />
-        <div className='search-bar flex'>
+        <div className='search-bar flex border border-white rounded-xl overflow-hidden'>
           <SearchInput />
           <CategoryInputSelect />
           <SearchButton />

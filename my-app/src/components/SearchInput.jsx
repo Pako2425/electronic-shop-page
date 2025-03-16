@@ -1,6 +1,6 @@
 function SearchInput() {
     return(
-        <input type="text" placeholder="Wpisz czego szukasz"></input>
+        <input type="text" placeholder="Wpisz czego szukasz" />
     );
 }
 
