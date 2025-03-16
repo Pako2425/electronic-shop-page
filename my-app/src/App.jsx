@@ -20,12 +20,15 @@ function App() {
 
   return (
     <>
-      <h1>aaa</h1>
-      <ShopLogo />
-      <SearchInput />
-      <CategoryInputSelect />
-      <SearchButton />
-      <UserMenu />
+      <header className='flex h-10 justify-between'>
+        <ShopLogo />
+        <div className='search-bar flex'>
+          <SearchInput />
+          <CategoryInputSelect />
+          <SearchButton />
+        </div>
+        <UserMenu />
+      </header>
       <CategoryMenu />
       <MainAdvertisement />
       <ListOfProducts />

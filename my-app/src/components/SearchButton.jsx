@@ -1,6 +1,6 @@
 function SearchButton() {
     return(
-        <button>logo-search</button>
+        <button className="flex w-16 bg-orange-400 items-center justify-center"><img src='./public/search-icon.png' alt='search' className="h-full"/></button>
     );
 }
 
