@@ -2,7 +2,7 @@ function CategoryMenu() {
     const categories = ['Laptopy', 'Komputery', 'Tablety', 'Telefony', 'Smartwatche', 'Drukarki', 'Konsole', 'RTV', 'Sieci'];
     
     return(
-        <ul className="flex pl-5 pr-5 h-15 bg-blue-100 items-center justify-center">
+        <ul className="flex mb-5 pl-5 pr-5 h-15 bg-blue-100 items-center justify-center">
             {categories.map(category => categoryButton(category))}
         </ul>
     );
