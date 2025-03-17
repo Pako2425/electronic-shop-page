@@ -20,9 +20,9 @@ function App() {
 
   return (
     <>
-      <header className='flex h-10 justify-between'>
+      <header className='flex h-10 items-center justify-center mt-5 mb-5'>
         <ShopLogo />
-        <div className='search-bar flex border border-white rounded-xl overflow-hidden'>
+        <div className='search-bar flex border border-white rounded-xl overflow-hidden mx-50 h-10'>
           <SearchInput />
           <CategoryInputSelect />
           <SearchButton />
