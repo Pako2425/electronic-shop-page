@@ -13,9 +13,9 @@ function ProductsGrid() {
     ];
     
     return(
-        <div className="polecamy flex flex-col w-2/3 p-5 border h-full">
+        <div className="polecamy flex flex-col w-2/3 p-5">
             <h1 className="text-3xl font-bold mb-5">Polecamy</h1>
-            <div className="grid grid-cols-4 gap-4 border h-full">
+            <div className="grid grid-cols-4 gap-4 h-full">
                 {products.map((product, index) =>
                     <ProductCard key={index} index={index} product={product} />
                 )}

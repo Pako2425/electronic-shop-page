@@ -7,7 +7,7 @@ function ListOfProducts() {
         <div className="produkty m-15">
             <h1 className="text-center text-3xl font-bold m-15">Produkty</h1>
             
-            <div className="flex justify-center items-start p-6 space-x-6 border min-h-[400px] h-full">
+            <div className="flex justify-center items-stretch p-6 space-x-6 min-h-100">
                 {/* 🖱️ Okazja */}
                 <FeaturedOffer />
 

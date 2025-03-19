@@ -1,8 +1,8 @@
 function FeaturedOffer() {
     return(
-        <div className="okazja flex flex-col w-1/3 p-5 border h-full">
+        <div className="okazja flex flex-col w-1/3 p-5">
             <h1 className="text-3xl font-bold mb-5">Okazja</h1>
-            <div className="flex flex-col border justify-center items-center text-center shadow-lg h-full">
+            <div className="flex flex-col border justify-center items-center text-center shadow-lg">
                 <img
                     src="./public/newest-products/mouse.png"
                     alt="mouse" className="w-24 h-24 object-contain"
