@@ -4,10 +4,8 @@ import ProductsGrid from "./ProductsGrid";
 
 function ListOfProducts() {
     return (
-        <div className="produkty m-15">
-            <h1 className="text-center text-3xl font-bold m-15">Produkty</h1>
-            
-            <div className="flex justify-center items-stretch p-6 space-x-6 min-h-100">
+        <div className="produkty flex flex-col items-center justify-center mt-5">
+            <div className="flex justify-center items-stretch p-6 space-x-6 min-h-100 max-w-300 w-full">
                 {/* 🖱️ Okazja */}
                 <FeaturedOffer />
 
