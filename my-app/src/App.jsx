@@ -19,26 +19,40 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <header className='flex h-10 items-center justify-center mt-5 mb-5'>
-        <ShopLogo />
-        <div className='search-bar flex border border-white rounded-xl overflow-hidden mx-50 h-10'>
-          <SearchInput />
-          <CategoryInputSelect />
-          <SearchButton />
+    <div className="min-h-screen flex flex-col">
+      
+      <header className='flex w-full'>
+        <div className='max-w-7xl mx-auto flex justify-between px-6 py-4'>
+          <ShopLogo />
+          <div className='search-bar flex border border-white rounded-xl overflow-hidden mx-50 h-10'>
+            <SearchInput />
+            <CategoryInputSelect />
+            <SearchButton />
+          </div>
+          <UserMenu />
         </div>
-        <UserMenu />
       </header>
-      <CategoryMenu />
-      <MainAdvertisement />
-      <ListOfProducts />
-      <PCConfiguration />
-      <SpecialOffers />
-      <BestSellers />
-      <Accesories />
-      <Newsletter />
-      <Footer />
-    </>
+      
+      <div className='category-menu'>
+        <CategoryMenu />
+      </div>
+      <main className="flex-1">
+
+        <div className="max-w-7xl mx-auto px-6 py-8 border">
+          
+          <MainAdvertisement />
+          <ListOfProducts />
+          <PCConfiguration />
+          <BestSellers />
+          <SpecialOffers />
+          <Accesories />
+          <Newsletter />
+        </div>
+      </main>
+      <footer className='flex w-full bg-amber-300'>
+        <Footer />
+      </footer>
+    </div>
   )
 }
 
