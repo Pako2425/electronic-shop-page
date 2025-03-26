@@ -33,7 +33,7 @@ function App() {
 
       <main className="flex-1">
 
-        <div className="max-w-7xl mx-auto px-6 py-8 border">
+        <div className="max-w-7xl mx-auto px-6 py-8">
           <MainAdvertisement />
           <ListOfProducts />
           <PCConfiguration />

@@ -1,13 +1,17 @@
+import BestSellerCard from "./BestsellerCard";
+
 function BestSellers() {
     return(
-        <div className="bestsellery border flex">
-            <h2>Bestellery</h2>
-            <ul>
-                <li>Bestseller1</li>
-                <li>Bestseller2</li>
-                <li>Bestseller3</li>
-                <li>Bestseller4</li>
-            </ul>
+        <div className="bestsellery flex w-full flex-col my-8 border">
+            <h1 className="text-3xl font-bold mb-5">Bestellery</h1>
+            <div className="cards flex w-full">
+                <BestSellerCard />
+                <BestSellerCard />
+                <BestSellerCard />
+                <BestSellerCard />
+                <BestSellerCard />
+                <BestSellerCard />
+            </div>
         </div>
     );
 }
