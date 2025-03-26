@@ -1,9 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import ShopLogo from './components/ShopLogo.jsx';
-import SearchInput from './components/SearchInput.jsx';
-import CategoryInputSelect from './components/CategoryInputSelect.jsx';
-import SearchButton from './components/SearchButton.jsx';
+import SearchBar from './components/SearchBar.jsx';
 import UserMenu from './components/UserMenu.jsx';
 import CategoryMenu from './components/CategoryMenu.jsx';
 import MainAdvertisement from './components/MainAdvertisement.jsx';
@@ -24,22 +22,18 @@ function App() {
       <header className='flex w-full'>
         <div className='max-w-7xl mx-auto flex justify-between px-6 py-4'>
           <ShopLogo />
-          <div className='search-bar flex border border-white rounded-xl overflow-hidden mx-50 h-10'>
-            <SearchInput />
-            <CategoryInputSelect />
-            <SearchButton />
-          </div>
+          <SearchBar />
           <UserMenu />
         </div>
       </header>
       
-      <div className='category-menu'>
+      <div className='category-menu flex w-full justify-center items-center bg-blue-100'>
         <CategoryMenu />
       </div>
+
       <main className="flex-1">
 
         <div className="max-w-7xl mx-auto px-6 py-8 border">
-          
           <MainAdvertisement />
           <ListOfProducts />
           <PCConfiguration />
@@ -49,11 +43,13 @@ function App() {
           <Newsletter />
         </div>
       </main>
+      
       <footer className='flex w-full bg-amber-300'>
         <Footer />
+      
       </footer>
     </div>
-  )
+  );
 }
 
 export default App
