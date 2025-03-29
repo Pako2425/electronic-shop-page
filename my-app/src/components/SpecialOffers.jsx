@@ -1,23 +1,16 @@
+import SpecialOfferCard from "./SpecialOfferCard";
+
 function SpecialOffers() {
     return(
         <div className="promocje flex flex-col justify-center items-center border">
-            <h2>Promocje</h2>
+            <div>Promocje</div>
             <p>Sprawdź co dla ciebie mamy</p>
-            <div className="flex w-full max-w-300 border">
-                <div className="flex grow-1 bg-amber-300">
-                    <p>Big offer</p>
-                </div>
-                <div className="flex grow-2 bg-blue-500">
-                    <div className="grid grid-cols-2 grid-rows-2 w-full h-full">
-                        <p1 className="border">Small offer</p1>
-                        <p1 className="border">Small offer</p1>
-                        <p1 className="border">Small offer</p1>
-                        <p1 className="border">Small offer</p1>
-                    </div>
-                </div>
+            <div className="flex gap-4">
+                <SpecialOfferCard img_src={"./public/special-offers/promocja1.png"} title={"#CYBER PONIEDZIAŁEK"} />
+                <SpecialOfferCard img_src={"./public/special-offers/promocja2.png"} title={"2+1"} />
+                <SpecialOfferCard img_src={"./public/special-offers/promocja3.png"} title={"CASHBACK"} />
+                <SpecialOfferCard img_src={"./public/special-offers/promocja4.png"} title={"WYMIEŃ STARE NA NOWE"} />
             </div>
-            
-            
         </div>
     );
 }
